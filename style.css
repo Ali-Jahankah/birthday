@@ -81,7 +81,7 @@ img {
     position: relative;
     z-index: 20;
     margin-block: auto;
-    margin-top: 1em;
+
 }
 
 .close {
@@ -94,7 +94,7 @@ img {
 }
 
 .sima {
-
+    width: 99%;
     margin: 10px auto;
     height: 55vh;
 
