@@ -103,6 +103,11 @@ img {
 
 }
 
+h5 {
+    text-align: center;
+    color: white;
+}
+
 @media screen and (min-width:800px) {
 
     .title,
