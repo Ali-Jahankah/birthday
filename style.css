@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    line-height: 1.5em;
+}
+
+body {
+    background: rgb(70, 12, 60);
+
+
+}
+
+.main {
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    padding: 1em;
+}
+
+.explain {
+    text-align: center;
+    color: rgb(0, 255, 34);
+    transition: all 2s;
+}
+
+.title,
+.footer {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 2rem;
+    color: white;
+    z-index: 20;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.remove {
+    display: none;
+}
+
+.ali {
+    transform: translateX(100vw);
+    position: absolute;
+    top: 7em;
+    left: 0;
+    transition: all 3s;
+    height: 55%;
+
+    width: 100%;
+
+}
+
+.ali img {
+    max-height: 100%;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.moving {
+    transform: translateX(0vw);
+}
+
+img {
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    background-color: transparent;
+}
+
+.doors {
+    height: 300px;
+    position: relative;
+    z-index: 20;
+    margin-block: auto;
+    margin-top: 1em;
+}
+
+.close {
+    z-index: 10;
+}
+
+.doors img {
+    max-height: 100%;
+    z-index: 20;
+}
+
+.sima {
+
+    margin: 10px auto;
+    height: 55vh;
+
+    z-index: 10;
+    transition: all 2s;
+
+}
+
+@media screen and (min-width:800px) {
+
+    .title,
+    .footer,
+    .explain {
+        font-size: 4rem;
+    }
+
+
+}
